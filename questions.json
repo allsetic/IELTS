@@ -659,6 +659,330 @@
       "grammarTitle": "Noun + To-Infinitive Patterns",
       "detailedExplanation": "Avoid 'of use' here; the natural construction is 'opportunity to use'.",
       "mode": "exact"
+    },
+    {
+      "id": "T2",
+      "category": "Tense Sequence (Past Perfect for Earlier State)",
+      "prompt": "Fix the sentence: When I arrived in Cancun, my aunt has been living there for almost a decade.",
+      "accepted": [
+        "When I arrived in Cancun, my aunt had been living there for almost a decade."
+      ],
+      "explanation": "Use past perfect for the longer/on-going state that started before the past reference point.",
+      "topicNote": "Use past perfect ('had been living') for background states before the main past event.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/past-perfect-continuous",
+      "grammarTitle": "Past Perfect Continuous for Prior Background",
+      "detailedExplanation": "Past perfect situates an earlier action/state relative to another past moment. Here, her living in Cancun started before your arrival, so 'had been living' is required. Tip: If you can add 'already' before the verb, it likely needs past perfect.",
+      "mode": "exact"
+    },
+    {
+      "id": "AdjAdv1",
+      "category": "Adjective vs Adverb",
+      "prompt": "Fix the sentence: I really enjoy outdoors activities.",
+      "accepted": [
+        "I really enjoy outdoor activities."
+      ],
+      "explanation": "Use the adjective 'outdoor' before a noun; 'outdoors' is usually an adverb or noun.",
+      "topicNote": "'Outdoor + noun' (outdoor activities); 'go outdoors' (adverb).",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/outdoor",
+      "grammarTitle": "Choosing 'Outdoor' vs 'Outdoors'",
+      "detailedExplanation": "Before a noun, use the adjective form: 'outdoor sports/activities'. Use 'outdoors' as an adverb ('I prefer to be outdoors'). Tip: Replace the noun with 'things'—if it fits ('outdoor things'), you need the adjective.",
+      "mode": "exact"
+    },
+    {
+      "id": "I1",
+      "category": "Intensifiers & Degree",
+      "prompt": "Fix the sentence: E-books are really more convenient for me.",
+      "accepted": [
+        "E-books are much more convenient for me.",
+        "E-books are really convenient for me."
+      ],
+      "explanation": "Use 'much more' for comparisons or 'really' for emphasis, not both together before 'more'.",
+      "topicNote": "Comparatives: 'much/a lot/far + more'; non-comparative: 'really/very + adjective'.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/comparative",
+      "grammarTitle": "Choosing the Right Intensifier",
+      "detailedExplanation": "In comparisons, use 'much/a lot/far' with 'more/less'. Use 'really/very' with base adjectives. Tip: If 'more' is present, reach for 'much/a lot', not 'really'.",
+      "mode": "exact"
+    },
+    {
+      "id": "Coll1",
+      "category": "Collocations (Ability & Naturalness)",
+      "prompt": "Improve the sentence: Having the possibility of reading a book outdoors makes me enjoy it more.",
+      "accepted": [
+        "Being able to read outdoors makes me enjoy it more.",
+        "Having the option to read outdoors makes me enjoy it more."
+      ],
+      "explanation": "Use 'be able to' / 'have the option to' for natural everyday ability.",
+      "topicNote": "Avoid heavy nominalisations when a simple verb phrase is clearer.",
+      "referenceUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/able",
+      "grammarTitle": "Natural Alternatives to Nominalisations",
+      "detailedExplanation": "Phrases like 'the possibility of doing' are formal and heavy. In speech, 'be able to' or 'can' is more natural. Tip: If your sentence has 'the possibility of', try replacing it with 'can' or 'be able to'.",
+      "mode": "exact"
+    },
+    {
+      "id": "PV1",
+      "category": "Phrasal Verbs (Carry)",
+      "prompt": "Fix the sentence: I like having a portable device which I can carry out.",
+      "accepted": [
+        "I like having a portable device which I can carry around.",
+        "I like having a portable device that I can carry around."
+      ],
+      "explanation": "'Carry out' means 'perform/execute'; the correct phrasal verb is 'carry around'.",
+      "topicNote": "Choose the phrasal verb that matches the meaning.",
+      "referenceUrl": "https://www.merriam-webster.com/dictionary/carry%20out",
+      "grammarTitle": "Choosing the Right Phrasal Verb",
+      "detailedExplanation": "'Carry out' = perform/execute (carry out an experiment). For transporting something with you, use 'carry' or 'carry around'. Tip: If you can replace it with 'perform', you picked the wrong one for movement.",
+      "mode": "exact"
+    },
+    {
+      "id": "Exist1",
+      "category": "Existential 'There'",
+      "prompt": "Fix the sentence: It’s been a lot of improvement in that tool.",
+      "accepted": [
+        "There has been a lot of improvement in that tool."
+      ],
+      "explanation": "Use 'There is/are/has been' to introduce the existence of something.",
+      "topicNote": "Existential 'there' + be + noun phrase.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/there-is-there-are",
+      "grammarTitle": "Using 'There is/are/was/were'",
+      "detailedExplanation": "When presenting that something exists/occurs, start with 'there' + be. Tip: If your sentence begins with 'It is/was' + noun of existence, try switching to 'There is/was'.",
+      "mode": "exact"
+    },
+    {
+      "id": "Coll2",
+      "category": "Travel Collocations",
+      "prompt": "Improve the sentence: We managed to have a long journey across Mexico.",
+      "accepted": [
+        "We went on a long journey across Mexico.",
+        "We took a long trip across Mexico."
+      ],
+      "explanation": "Use 'go on a journey' or 'take a trip'; 'manage to have' is unnatural here.",
+      "topicNote": "Reserve 'manage to' for overcoming difficulty.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/journey",
+      "grammarTitle": "Natural Travel Collocations",
+      "detailedExplanation": "Say 'go on a journey' / 'take a trip'. 'Manage to' implies difficulty and is unnecessary with neutral actions. Tip: If nothing was hard, avoid 'manage to'.",
+      "mode": "exact"
+    },
+    {
+      "id": "Word1",
+      "category": "Redundancy & Politeness",
+      "prompt": "Fix the sentence: Could you repeat that once more again, please?",
+      "accepted": [
+        "Could you repeat that, please?",
+        "Could you say that again, please?"
+      ],
+      "explanation": "Avoid doubling 'once more' and 'again'.",
+      "topicNote": "Use one repetition marker only.",
+      "referenceUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/repeat",
+      "grammarTitle": "Avoiding Tautology",
+      "detailedExplanation": "Phrases like 'once more again' repeat the same idea. Choose either 'once more' or 'again'. Tip: Read aloud and delete duplicated meaning.",
+      "mode": "exact"
+    },
+    {
+      "id": "Link1",
+      "category": "Linkers ('also' vs 'as well')",
+      "prompt": "Fix the sentence: As well, we kept exploring during the journey.",
+      "accepted": [
+        "We also kept exploring during the journey.",
+        "We kept exploring during the journey as well."
+      ],
+      "explanation": "'As well' is most natural at the end; otherwise use 'also' earlier in the clause.",
+      "topicNote": "Choose 'also' (mid-position) or 'as well' (sentence-final).",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/also-as-well-or-too",
+      "grammarTitle": "Natural Placement of Additive Linkers",
+      "detailedExplanation": "'Also' typically goes before the main verb; 'as well' usually comes at the end. Tip: If your sentence begins with 'As well', switch to 'Also' or move 'as well' to the end.",
+      "mode": "exact"
+    },
+    {
+      "id": "Lex1",
+      "category": "Word Choice (Administrative Terms)",
+      "prompt": "Improve the sentence: We explored the Cancun county over there in Cancun.",
+      "accepted": [
+        "We explored the Cancun area.",
+        "We explored the area around Cancun."
+      ],
+      "explanation": "'County' is not the usual term for Mexico; 'area' is natural here.",
+      "topicNote": "Match administrative terms to the country (state/region/area).",
+      "referenceUrl": "https://www.lexico.com/definition/county",
+      "grammarTitle": "Choosing the Right Geo Term",
+      "detailedExplanation": "In Mexico: states, municipalities, regions—not 'counties'. When unsure, use 'area' for neutral, natural phrasing. Tip: Avoid repeating the place name unnecessarily.",
+      "mode": "exact"
+    },
+    {
+      "id": "Sp1",
+      "category": "Proper Nouns & Spelling",
+      "prompt": "Fix the sentence: We visited Isla de Mujeres during our trip.",
+      "accepted": [
+        "We visited Isla Mujeres during our trip."
+      ],
+      "explanation": "The island’s name is 'Isla Mujeres' (no 'de').",
+      "topicNote": "Check official place names and spellings.",
+      "referenceUrl": "https://www.britannica.com/place/Isla-Mujeres",
+      "grammarTitle": "Accuracy with Proper Nouns",
+      "detailedExplanation": "Proper names should be spelled exactly as used officially. Tip: If in doubt, verify with a reliable source before speaking/writing (in speech, keep it simple if unsure).",
+      "mode": "exact"
+    },
+    {
+      "id": "C2",
+      "category": "Phrasal Verbs vs Simple Verbs",
+      "prompt": "Fix the sentence: We ended up our journey in Tapachula.",
+      "accepted": [
+        "We ended our journey in Tapachula.",
+        "We ended up in Tapachula."
+      ],
+      "explanation": "Use 'end + object' or 'end up + place' (no object).",
+      "topicNote": "'End up' doesn’t take a direct object.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/end-up",
+      "grammarTitle": "Using 'End' vs 'End Up'",
+      "detailedExplanation": "'End up' describes a final place/result (We ended up in X). To end something, use the simple verb with an object (end our journey). Tip: If a direct object follows, avoid 'up'.",
+      "mode": "exact"
+    },
+    {
+      "id": "Link2",
+      "category": "Fixed Expressions",
+      "prompt": "Fix the sentence: So in overall, it was a fantastic trip.",
+      "accepted": [
+        "Overall, it was a fantastic trip.",
+        "All in all, it was a fantastic trip."
+      ],
+      "explanation": "Use 'Overall' (no 'in') or the set phrase 'All in all'.",
+      "topicNote": "Memorise fixed discourse markers.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/overall",
+      "grammarTitle": "Set Phrases for Summarising",
+      "detailedExplanation": "Some linkers are fixed: 'Overall,' 'All in all,' 'On the whole,'. 'In overall' is not idiomatic. Tip: Keep a short list of safe summary openers.",
+      "mode": "exact"
+    },
+    {
+      "id": "RC1",
+      "category": "Relative Clauses & Redundancy",
+      "prompt": "Fix the sentence: There was a huge snake that we were able to take pictures of that animal.",
+      "accepted": [
+        "There was a huge snake that we were able to take pictures of.",
+        "We were able to take pictures of a huge snake."
+      ],
+      "explanation": "Avoid repeating 'that animal'; the relative clause already identifies it.",
+      "topicNote": "Use one reference; preposition 'of' can be stranded after 'of'.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/relative-clauses",
+      "grammarTitle": "Concise Relative Clauses",
+      "detailedExplanation": "When a relative clause identifies the noun, don’t restate it with another pronoun/noun. Tip: If a clause ends with 'of that/it', delete the extra noun.",
+      "mode": "exact"
+    },
+    {
+      "id": "Lex2",
+      "category": "Vocabulary Range (Avoid Over-repetition)",
+      "prompt": "Improve the sentence: I found that really, really, really encouraging.",
+      "accepted": [
+        "I found that incredibly encouraging.",
+        "I found that genuinely encouraging."
+      ],
+      "explanation": "Replace repeated 'really' with a stronger single intensifier.",
+      "topicNote": "Show lexical range with precise intensifiers.",
+      "referenceUrl": "https://www.merriam-webster.com/thesaurus/really",
+      "grammarTitle": "Using Precise Intensifiers",
+      "detailedExplanation": "Multiple 'really's sound repetitive. Choose a single, precise adverb (incredibly, deeply, strongly). Tip: If you write 'really' twice, replace them with one stronger word.",
+      "mode": "exact"
+    },
+    {
+      "id": "WC1",
+      "category": "Word Choice (Uncountable Nouns)",
+      "prompt": "Fix the sentence: I discovered all the heritage that Mexico has.",
+      "accepted": [
+        "I discovered Mexico’s cultural heritage.",
+        "I learned about Mexico’s cultural heritage."
+      ],
+      "explanation": "'Heritage' is uncountable; avoid 'all the heritage' unless specifying types.",
+      "topicNote": "Use possessive + uncountable noun for natural phrasing.",
+      "referenceUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/heritage",
+      "grammarTitle": "Uncountable Abstract Nouns",
+      "detailedExplanation": "Abstract nouns like 'heritage' are typically uncountable. Prefer 'X’s heritage' without 'all the'. Tip: If you can’t add a number before it, avoid 'all the'.",
+      "mode": "exact"
+    },
+    {
+      "id": "Sp2",
+      "category": "Proper Nouns & Brand Names",
+      "prompt": "Fix the sentence: I started to use these LLM models such as Gmini and ChatGPT.",
+      "accepted": [
+        "I started using LLMs such as Gemini and ChatGPT."
+      ],
+      "explanation": "Correct the brand name (Gemini) and prefer the natural gerund after 'start'.",
+      "topicNote": "After 'start', both 'to + verb' and '-ing' are possible; '-ing' is common in speech.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/verb-patterns-verb-ing-or-to-infinitive",
+      "grammarTitle": "Verb Patterns & Proper Names",
+      "detailedExplanation": "Use 'start doing' for a natural flow. Avoid 'LLM models' (redundant); 'LLMs' is enough. Tip: When naming tools/brands, double-check spelling.",
+      "mode": "exact"
+    },
+    {
+      "id": "GS1",
+      "category": "Apposition & Subject Duplication",
+      "prompt": "Fix the sentence: A friend of mine, Nacho, he encouraged me to try it.",
+      "accepted": [
+        "A friend of mine, Nacho, encouraged me to try it.",
+        "My friend Nacho encouraged me to try it."
+      ],
+      "explanation": "Don’t repeat the subject pronoun after an appositive.",
+      "topicNote": "Apposition replaces the need for a second subject.",
+      "referenceUrl": "https://www.merriam-webster.com/dictionary/apposition",
+      "grammarTitle": "Apposition Without Double Subjects",
+      "detailedExplanation": "When a noun is followed by another noun in apposition (My friend, Nacho), don’t add an extra 'he/she'. Tip: Delete the pronoun after commas if it repeats the subject.",
+      "mode": "exact"
+    },
+    {
+      "id": "WC2",
+      "category": "Conciseness & Naturalness",
+      "prompt": "Improve the sentence: I actually prefer going with the e-book digital version.",
+      "accepted": [
+        "I prefer the digital (e-book) version.",
+        "I prefer e-books."
+      ],
+      "explanation": "Avoid redundant modifiers; choose one clear noun phrase.",
+      "topicNote": "Keep noun phrases compact and unambiguous.",
+      "referenceUrl": "https://owl.purdue.edu/owl/general_writing/academic_writing/conciseness.html",
+      "grammarTitle": "Concise Noun Phrases",
+      "detailedExplanation": "Stacking near-synonyms ('e-book digital version') is clunky. Choose one precise term. Tip: If two words mean the same, keep the more common one.",
+      "mode": "exact"
+    },
+    {
+      "id": "Pron1",
+      "category": "Pronoun Reference",
+      "prompt": "Fix the sentence: My uncle was waiting for me. She had been living there for almost ten years.",
+      "accepted": [
+        "My uncle was waiting for me. He had been living there for almost ten years."
+      ],
+      "explanation": "Match pronoun gender/number with the antecedent.",
+      "topicNote": "Ensure clear and accurate pronoun reference.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/pronouns-personal-i-me-you-he-him-etc",
+      "grammarTitle": "Agreement in Pronoun Reference",
+      "detailedExplanation": "Pronouns must agree with the noun they replace. A mismatch confuses the listener. Tip: After writing, quickly check each pronoun back to its noun.",
+      "mode": "exact"
+    },
+    {
+      "id": "Word2",
+      "category": "Lexical Choice (Speech vs Tools)",
+      "prompt": "Fix the sentence: Could you unmute that once again, please? (asking for a question to be repeated)",
+      "accepted": [
+        "Could you repeat that, please?",
+        "Could you say that again, please?"
+      ],
+      "explanation": "'Unmute' refers to audio controls, not repetition.",
+      "topicNote": "Choose verbs that match the communicative function.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/repeat",
+      "grammarTitle": "Choosing Accurate Verbs for Requests",
+      "detailedExplanation": "Use 'repeat'/'say that again' when you didn’t catch something. Reserve 'unmute' for toggling a microphone. Tip: If you want to hear the same words again, say 'repeat'.",
+      "mode": "exact"
+    },
+    {
+      "id": "Style1",
+      "category": "Cohesion & Clarity",
+      "prompt": "Improve the sentence: We got a quick idea of Cancun.",
+      "accepted": [
+        "We got a quick feel for Cancun.",
+        "We got a quick impression of Cancun."
+      ],
+      "explanation": "'Idea of a city' is vague; 'feel/impression' is the natural collocation.",
+      "topicNote": "Prefer common collocations to sound natural.",
+      "referenceUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/impression",
+      "grammarTitle": "Natural Collocations for Impressions",
+      "detailedExplanation": "English favours 'get a feel/impression' when describing first contact with a place. Tip: Keep a small bank of high-frequency collocations.",
+      "mode": "exact"
     }
   ]
 }

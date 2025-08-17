@@ -1,10 +1,13 @@
-Existing questions: 28
-New questions provided: 24
-Appended: 18
-Skipped: 6
-- S2: duplicate id
-- LEX1: duplicate id
-- LEX2: duplicate id
-- SP1: duplicate id
-- SP2: duplicate id
-- SP3: duplicate id
+Existing questions: 46
+New questions provided: 30
+Appended: 22
+Skipped: 8
+- T1: duplicate id
+- A1: duplicate id
+- P1: duplicate id
+- P2: duplicate id
+- P3: duplicate id
+- C1: duplicate id
+- D1: duplicate id
+- P4: duplicate id
+

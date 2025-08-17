@@ -1,319 +1,444 @@
 {
   "questions": [
     {
-      "id": "A1",
-      "category": "Articles & Plurals",
-      "prompt": "Fix the sentence: In this cases, the family can afford the costs.",
+      "id": "T1",
+      "category": "Tense Consistency (Past Narratives)",
+      "prompt": "Fix the sentence: When I was drawing as a kid, it makes me happy.",
       "accepted": [
-        "In these cases, the family can afford the costs.",
-        "In these cases the family can afford the costs"
+        "When I was drawing as a kid, it made me happy."
       ],
-      "explanation": "'Cases' is plural, so use 'these', not 'this'.",
-      "topicNote": "Demonstratives: 'these' matches plural nouns like 'cases'.",
-      "referenceUrl": "https://www.grammarly.com/blog/this-these/",
-      "grammarTitle": "Demonstratives with Singular and Plural Nouns",
-      "detailedExplanation": "Use 'this' for singular nouns close in time/space and 'these' for plural nouns. Since 'cases' is plural, choose 'these'. Tip: say the noun first—if it’s plural, pick 'these'.",
+      "explanation": "Keep the whole past narrative in past tense.",
+      "topicNote": "Past events narrated together should stay in the past unless you intentionally shift time.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/past-perfect-simple-or-past-simple",
+      "grammarTitle": "Consistent Past Narration",
+      "detailedExplanation": "When telling a story about the past, avoid slipping into the present. Use past forms (made, went, saw) until the timeline changes. Tip: underline time phrases (when I was a kid, last year) and match all verbs to that time.",
       "mode": "exact"
     },
     {
-      "id": "S1",
-      "category": "Subject–Verb Agreement",
-      "prompt": "Fix the sentence: The system can takes care of them.",
-      "accepted": ["The system can take care of them."],
-      "explanation": "Modals (can, could, may, might, must, should) take the base form.",
-      "topicNote": "After a modal, drop the -s/-ed: use the bare infinitive.",
-      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/modal-verbs",
-      "grammarTitle": "Modal Verbs + Base Form",
-      "detailedExplanation": "Modal verbs are followed by the base form: can take, should consider, must pay. Do not add third-person -s or 'to'.",
+      "id": "T2",
+      "category": "Tense Sequence (Past Perfect for Earlier State)",
+      "prompt": "Fix the sentence: When I arrived in Cancun, my aunt has been living there for almost a decade.",
+      "accepted": [
+        "When I arrived in Cancun, my aunt had been living there for almost a decade."
+      ],
+      "explanation": "Use past perfect for the longer/on-going state that started before the past reference point.",
+      "topicNote": "Use past perfect ('had been living') for background states before the main past event.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/past-perfect-continuous",
+      "grammarTitle": "Past Perfect Continuous for Prior Background",
+      "detailedExplanation": "Past perfect situates an earlier action/state relative to another past moment. Here, her living in Cancun started before your arrival, so 'had been living' is required. Tip: If you can add 'already' before the verb, it likely needs past perfect.",
+      "mode": "exact"
+    },
+    {
+      "id": "A1",
+      "category": "Articles & Countable Nouns",
+      "prompt": "Fix the sentence: Please provide me exercise for practice.",
+      "accepted": [
+        "Please provide me an exercise for practice.",
+        "Please provide me some exercises for practice."
+      ],
+      "explanation": "Singular countable nouns need an article; for more than one, use the plural.",
+      "topicNote": "Use 'a/an' with singular countables; use the plural with quantities.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/a-an-and-the",
+      "grammarTitle": "Articles with Countable Nouns",
+      "detailedExplanation": "Because 'exercise' is a countable noun, you must say 'an exercise' or use the plural 'exercises'. Tip: Try inserting a number: if 'one exercise' makes sense, you need 'a/an'.",
+      "mode": "exact"
+    },
+    {
+      "id": "AdjAdv1",
+      "category": "Adjective vs Adverb",
+      "prompt": "Fix the sentence: I really enjoy outdoors activities.",
+      "accepted": [
+        "I really enjoy outdoor activities."
+      ],
+      "explanation": "Use the adjective 'outdoor' before a noun; 'outdoors' is usually an adverb or noun.",
+      "topicNote": "'Outdoor + noun' (outdoor activities); 'go outdoors' (adverb).",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/outdoor",
+      "grammarTitle": "Choosing 'Outdoor' vs 'Outdoors'",
+      "detailedExplanation": "Before a noun, use the adjective form: 'outdoor sports/activities'. Use 'outdoors' as an adverb ('I prefer to be outdoors'). Tip: Replace the noun with 'things'—if it fits ('outdoor things'), you need the adjective.",
       "mode": "exact"
     },
     {
       "id": "P1",
-      "category": "Prepositions & Word Forms",
-      "prompt": "Rewrite correctly: Many people cannot (access / access to) good education.",
+      "category": "Prepositions (Arrive)",
+      "prompt": "Fix the sentence: I arrived to Cancun at night.",
       "accepted": [
-        "Many people cannot access good education.",
-        "Many people cannot access good-quality education.",
-        "Many people cannot access a good education."
+        "I arrived in Cancun at night."
       ],
-      "explanation": "Use 'access' as a verb without 'to'.",
-      "topicNote": "Verb 'access' takes a direct object: access something.",
-      "referenceUrl": "https://www.merriam-webster.com/dictionary/access",
-      "grammarTitle": "Transitive Verbs without Prepositions",
-      "detailedExplanation": "Some verbs are directly transitive (no preposition): access information, discuss a problem, approach a topic. Adding 'to' is a common error.",
+      "explanation": "Use 'arrive in' + city/country; 'arrive at' + building/station/airport.",
+      "topicNote": "Common pattern: arrive in Paris; arrive at the airport.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/arrive-at-on-in-or-to",
+      "grammarTitle": "Prepositions with 'Arrive'",
+      "detailedExplanation": "'Arrive to' is not used. Choose 'in' for large areas (cities, countries) and 'at' for specific places (stations, hotels). Tip: If it has a roof, 'at' often works; if it’s a city/country, use 'in'.",
       "mode": "exact"
     },
     {
-      "id": "U1",
-      "category": "Uncountable Nouns",
-      "prompt": "Fix the sentence: The government should pay for that cares.",
+      "id": "P2",
+      "category": "Verb + Preposition",
+      "prompt": "Fix the sentence: Could you explain me the difference?",
       "accepted": [
-        "The government should pay for that care.",
-        "The government should pay for this care."
+        "Could you explain the difference to me?",
+        "Could you explain to me the difference?"
       ],
-      "explanation": "'Care' is uncountable in this context.",
-      "topicNote": "Uncountable nouns (care, advice, information) don’t take plural -s.",
-      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/uncountable-nouns",
-      "grammarTitle": "Uncountable Nouns in Formal Writing",
-      "detailedExplanation": "Use 'care' (no -s) when referring to healthcare or assistance in general. Use quantifiers like 'some' or 'a lot of' if needed.",
+      "explanation": "With 'explain', the thing explained is the direct object; the person takes 'to'.",
+      "topicNote": "Explain something to someone.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/explain",
+      "grammarTitle": "Verb Patterns with 'Explain'",
+      "detailedExplanation": "Unlike 'tell', 'explain' doesn’t take an indirect object without 'to'. Say 'explain the rules to me'. Tip: If you can swap in 'describe', you will also likely need 'to': 'describe it to me'.",
       "mode": "exact"
     },
     {
-      "id": "S2",
-      "category": "Subject–Verb Agreement",
-      "prompt": "Fix the sentence: Families was able to pay for the services.",
-      "accepted": ["Families were able to pay for the services."],
-      "explanation": "'Families' is plural → use 'were', not 'was'.",
-      "topicNote": "Match plural subjects with plural verbs.",
-      "referenceUrl": "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html",
-      "grammarTitle": "Subject–Verb Agreement (Plural Subjects)",
-      "detailedExplanation": "Identify the true subject. If it is plural (families), the verb must be plural (were).",
+      "id": "P3",
+      "category": "Verb + Preposition",
+      "prompt": "Fix the sentence: I will write you tomorrow.",
+      "accepted": [
+        "I will write to you tomorrow.",
+        "I'll write to you tomorrow."
+      ],
+      "explanation": "Use 'write to someone'.",
+      "topicNote": "Write to + person; write about + topic.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/write",
+      "grammarTitle": "Prepositions after 'Write'",
+      "detailedExplanation": "English requires 'to' before the person: 'write to me'. Tip: Think: 'send a letter to…'—the same 'to' appears after 'write'.",
+      "mode": "exact"
+    },
+    {
+      "id": "C1",
+      "category": "Preference Structures",
+      "prompt": "Fix the sentence: I’d rather prefer going out in the evenings.",
+      "accepted": [
+        "I’d rather go out in the evenings.",
+        "I prefer going out in the evenings."
+      ],
+      "explanation": "Don’t combine 'rather' and 'prefer'—use one structure.",
+      "topicNote": "Use 'I’d rather + base verb' or 'I prefer + -ing/noun'.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/would-rather",
+      "grammarTitle": "Avoiding Redundant Preference Forms",
+      "detailedExplanation": "'Would rather' already expresses preference, so 'prefer' is unnecessary. Tip: If you see both 'rather' and 'prefer', delete one.",
+      "mode": "exact"
+    },
+    {
+      "id": "I1",
+      "category": "Intensifiers & Degree",
+      "prompt": "Fix the sentence: E-books are really more convenient for me.",
+      "accepted": [
+        "E-books are much more convenient for me.",
+        "E-books are really convenient for me."
+      ],
+      "explanation": "Use 'much more' for comparisons or 'really' for emphasis, not both together before 'more'.",
+      "topicNote": "Comparatives: 'much/a lot/far + more'; non-comparative: 'really/very + adjective'.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/comparative",
+      "grammarTitle": "Choosing the Right Intensifier",
+      "detailedExplanation": "In comparisons, use 'much/a lot/far' with 'more/less'. Use 'really/very' with base adjectives. Tip: If 'more' is present, reach for 'much/a lot', not 'really'.",
+      "mode": "exact"
+    },
+    {
+      "id": "Coll1",
+      "category": "Collocations (Ability & Naturalness)",
+      "prompt": "Improve the sentence: Having the possibility of reading a book outdoors makes me enjoy it more.",
+      "accepted": [
+        "Being able to read outdoors makes me enjoy it more.",
+        "Having the option to read outdoors makes me enjoy it more."
+      ],
+      "explanation": "Use 'be able to' / 'have the option to' for natural everyday ability.",
+      "topicNote": "Avoid heavy nominalisations when a simple verb phrase is clearer.",
+      "referenceUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/able",
+      "grammarTitle": "Natural Alternatives to Nominalisations",
+      "detailedExplanation": "Phrases like 'the possibility of doing' are formal and heavy. In speech, 'be able to' or 'can' is more natural. Tip: If your sentence has 'the possibility of', try replacing it with 'can' or 'be able to'.",
+      "mode": "exact"
+    },
+    {
+      "id": "PV1",
+      "category": "Phrasal Verbs (Carry)",
+      "prompt": "Fix the sentence: I like having a portable device which I can carry out.",
+      "accepted": [
+        "I like having a portable device which I can carry around.",
+        "I like having a portable device that I can carry around."
+      ],
+      "explanation": "'Carry out' means 'perform/execute'; the correct phrasal verb is 'carry around'.",
+      "topicNote": "Choose the phrasal verb that matches the meaning.",
+      "referenceUrl": "https://www.merriam-webster.com/dictionary/carry%20out",
+      "grammarTitle": "Choosing the Right Phrasal Verb",
+      "detailedExplanation": "'Carry out' = perform/execute (carry out an experiment). For transporting something with you, use 'carry' or 'carry around'. Tip: If you can replace it with 'perform', you picked the wrong one for movement.",
       "mode": "exact"
     },
     {
       "id": "D1",
-      "category": "Determiners & Demonstratives",
-      "prompt": "Fix the sentence: They discovered that this students developed attention problems.",
-      "accepted": ["They discovered that these students developed attention problems."],
-      "explanation": "Use 'these' with plural 'students'.",
-      "topicNote": "'This/that' (singular) vs 'these/those' (plural).",
-      "referenceUrl": "https://learnersdictionary.com/qa/this-these-that-those",
-      "grammarTitle": "Choosing the Right Demonstrative",
-      "detailedExplanation": "Demonstratives must agree in number with the noun they modify.",
-      "mode": "exact"
-    },
-    {
-      "id": "G1",
-      "category": "Prepositions & Collocations",
-      "prompt": "Fix the sentence: Most accidents are caused for distractions.",
-      "accepted": ["Most accidents are caused by distractions."],
-      "explanation": "Use the collocation 'caused by', not 'caused for'.",
-      "topicNote": "Cause + by + agent.",
-      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/by",
-      "grammarTitle": "Common Collocations with 'Cause'",
-      "detailedExplanation": "English uses fixed prepositions with certain verbs. Memorise 'caused by'.",
-      "mode": "exact"
-    },
-    {
-      "id": "WF1",
-      "category": "Word Forms (Gerund after Preposition)",
-      "prompt": "Fix the sentence: When it comes to go to school, children need a figure of authority.",
-      "accepted": ["When it comes to going to school, children need a figure of authority."],
-      "explanation": "After 'to' in a prepositional phrase, use the -ing form.",
-      "topicNote": "Preposition + gerund.",
-      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/ing-forms",
-      "grammarTitle": "Gerunds after Prepositions",
-      "detailedExplanation": "In 'when it comes to + noun/gerund', 'to' is a preposition, so use 'going', not 'go'.",
-      "mode": "exact"
-    },
-    {
-      "id": "LEX1",
-      "category": "Lexical Choice & Collocation",
-      "prompt": "Improve the sentence: Technologies are substituting workers in their jobs.",
+      "category": "Demonstratives & Number Agreement",
+      "prompt": "Fix the sentence: ChatGPT helped me debug all of that line of code.",
       "accepted": [
-        "Technologies are replacing workers in their jobs.",
-        "Technologies are substituting for workers in their jobs."
+        "ChatGPT helped me debug all of those lines of code."
       ],
-      "explanation": "Use 'replace X' or 'substitute for X'.",
-      "topicNote": "Correct verb–preposition pairing.",
-      "referenceUrl": "https://www.merriam-webster.com/words-at-play/substitute-vs-replace-usage",
-      "grammarTitle": "Replace vs Substitute",
-      "detailedExplanation": "'Replace' takes a direct object; 'substitute' typically takes 'for'.",
+      "explanation": "Match demonstratives and nouns: plural noun → plural demonstrative.",
+      "topicNote": "'This/that' (singular), 'these/those' (plural).",
+      "referenceUrl": "https://www.grammarly.com/blog/this-these/",
+      "grammarTitle": "Demonstratives with Plural Nouns",
+      "detailedExplanation": "Use 'these/those' with plural countable nouns. Tip: If the noun ends with an -s plural, your determiner should too ('these/those').",
       "mode": "exact"
     },
     {
-      "id": "LEX2",
-      "category": "Lexical Choice & Register",
-      "prompt": "Improve the phrase: elder people",
+      "id": "Exist1",
+      "category": "Existential 'There'",
+      "prompt": "Fix the sentence: It’s been a lot of improvement in that tool.",
       "accepted": [
-        "the elderly",
-        "elderly people",
-        "older people",
-        "senior citizens"
+        "There has been a lot of improvement in that tool."
       ],
-      "explanation": "'Elder people' is non-idiomatic; prefer 'the elderly/elderly people'.",
-      "topicNote": "Use idiomatic, respectful terms.",
-      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/elderly",
-      "grammarTitle": "Natural Phrases for Age Groups",
-      "detailedExplanation": "In formal writing, 'the elderly' or 'elderly people' is preferred.",
+      "explanation": "Use 'There is/are/has been' to introduce the existence of something.",
+      "topicNote": "Existential 'there' + be + noun phrase.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/there-is-there-are",
+      "grammarTitle": "Using 'There is/are/was/were'",
+      "detailedExplanation": "When presenting that something exists/occurs, start with 'there' + be. Tip: If your sentence begins with 'It is/was' + noun of existence, try switching to 'There is/was'.",
       "mode": "exact"
     },
     {
-      "id": "H1",
-      "category": "Hyphenation",
-      "prompt": "Fix the phrase when used before a noun: in person teaching",
-      "accepted": ["in-person teaching"],
-      "explanation": "Hyphenate compound modifiers before a noun.",
-      "topicNote": "face-to-face; long-term; in-person.",
-      "referenceUrl": "https://www.chicagomanualofstyle.org/qanda/data/faq/topics/Hyphens.html",
-      "grammarTitle": "Compound Modifiers with Hyphens",
-      "detailedExplanation": "When two words act as one adjective before a noun, use a hyphen.",
-      "mode": "exact"
-    },
-    {
-      "id": "H2",
-      "category": "Hyphenation",
-      "prompt": "Fix the phrase when used before a noun: face to face classes",
-      "accepted": ["face-to-face classes"],
-      "explanation": "Use hyphens in compound modifiers.",
-      "topicNote": "Consistent hyphenation improves clarity.",
-      "referenceUrl": "https://apastyle.apa.org/style-grammar-guidelines/grammar/hyphen",
-      "grammarTitle": "Hyphen Use in Modifiers",
-      "detailedExplanation": "Write 'face-to-face' before a noun.",
-      "mode": "exact"
-    },
-    {
-      "id": "CU1",
-      "category": "Countable vs Uncountable",
-      "prompt": "Fix the phrase: many evidences",
+      "id": "Coll2",
+      "category": "Travel Collocations",
+      "prompt": "Improve the sentence: We managed to have a long journey across Mexico.",
       "accepted": [
-        "much evidence",
-        "a great deal of evidence",
-        "many pieces of evidence"
+        "We went on a long journey across Mexico.",
+        "We took a long trip across Mexico."
       ],
-      "explanation": "'Evidence' is uncountable in English.",
-      "topicNote": "Use 'much' with uncountable; 'many' with countable.",
-      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/uncountable-nouns",
-      "grammarTitle": "Uncountable Abstract Nouns",
-      "detailedExplanation": "Prefer 'evidence' (no plural). If you need a countable form, use 'pieces of evidence'.",
+      "explanation": "Use 'go on a journey' or 'take a trip'; 'manage to have' is unnatural here.",
+      "topicNote": "Reserve 'manage to' for overcoming difficulty.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/journey",
+      "grammarTitle": "Natural Travel Collocations",
+      "detailedExplanation": "Say 'go on a journey' / 'take a trip'. 'Manage to' implies difficulty and is unnecessary with neutral actions. Tip: If nothing was hard, avoid 'manage to'.",
       "mode": "exact"
     },
     {
-      "id": "INF1",
-      "category": "Verb Patterns (Infinitive)",
-      "prompt": "Fix the sentence: They cannot afford pay for care.",
-      "accepted": ["They cannot afford to pay for care."],
-      "explanation": "'Afford' is followed by 'to' + base verb.",
-      "topicNote": "Common pattern: afford to do, agree to do, decide to do.",
-      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/to-infinitive-and-ing-form",
-      "grammarTitle": "Verbs Followed by To-Infinitive",
-      "detailedExplanation": "Memorise high-frequency verbs that take the to-infinitive.",
-      "mode": "exact"
-    },
-    {
-      "id": "WELL1",
-      "category": "Word Form & Hyphenation",
-      "prompt": "Fix the sentence: It is well know that many children struggled during Covid.",
+      "id": "Word1",
+      "category": "Redundancy & Politeness",
+      "prompt": "Fix the sentence: Could you repeat that once more again, please?",
       "accepted": [
-        "It is well known that many children struggled during COVID-19.",
-        "It is well known that many children struggled during COVID."
+        "Could you repeat that, please?",
+        "Could you say that again, please?"
       ],
-      "explanation": "Use 'known' (past participle) and standard 'COVID-19' capitalization.",
-      "topicNote": "After 'be', use 'well known' (no hyphen).",
-      "referenceUrl": "https://apastyle.apa.org/style-grammar-guidelines/abbreviations/covid-19",
-      "grammarTitle": "Fixed Expressions & Proper Nouns",
-      "detailedExplanation": "Use 'well known' after a verb; hyphenate 'well-known' before a noun.",
+      "explanation": "Avoid doubling 'once more' and 'again'.",
+      "topicNote": "Use one repetition marker only.",
+      "referenceUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/repeat",
+      "grammarTitle": "Avoiding Tautology",
+      "detailedExplanation": "Phrases like 'once more again' repeat the same idea. Choose either 'once more' or 'again'. Tip: Read aloud and delete duplicated meaning.",
       "mode": "exact"
     },
     {
-      "id": "IDI1",
+      "id": "Link1",
+      "category": "Linkers ('also' vs 'as well')",
+      "prompt": "Fix the sentence: As well, we kept exploring during the journey.",
+      "accepted": [
+        "We also kept exploring during the journey.",
+        "We kept exploring during the journey as well."
+      ],
+      "explanation": "'As well' is most natural at the end; otherwise use 'also' earlier in the clause.",
+      "topicNote": "Choose 'also' (mid-position) or 'as well' (sentence-final).",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/also-as-well-or-too",
+      "grammarTitle": "Natural Placement of Additive Linkers",
+      "detailedExplanation": "'Also' typically goes before the main verb; 'as well' usually comes at the end. Tip: If your sentence begins with 'As well', switch to 'Also' or move 'as well' to the end.",
+      "mode": "exact"
+    },
+    {
+      "id": "P4",
+      "category": "Location Phrases",
+      "prompt": "Fix the sentence: We explored all the state of Chiapas at South Mexico.",
+      "accepted": [
+        "We explored the whole state of Chiapas in southern Mexico.",
+        "We explored Chiapas, in southern Mexico."
+      ],
+      "explanation": "Use 'in southern Mexico', not 'at South Mexico'; 'whole' is more idiomatic here.",
+      "topicNote": "Preposition 'in' with regions; adjectives for compass points (southern, northern).",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/prepositions-of-place-at-in-on",
+      "grammarTitle": "Prepositions with Regions & Compass Adjectives",
+      "detailedExplanation": "Use 'in' for broader locations (in southern Mexico). 'South' is a noun/adverb; 'southern' is the adjective before nouns. Tip: If it’s before a noun, prefer 'southern/northern/eastern/western'.",
+      "mode": "exact"
+    },
+    {
+      "id": "Lex1",
+      "category": "Word Choice (Administrative Terms)",
+      "prompt": "Improve the sentence: We explored the Cancun county over there in Cancun.",
+      "accepted": [
+        "We explored the Cancun area.",
+        "We explored the area around Cancun."
+      ],
+      "explanation": "'County' is not the usual term for Mexico; 'area' is natural here.",
+      "topicNote": "Match administrative terms to the country (state/region/area).",
+      "referenceUrl": "https://www.lexico.com/definition/county",
+      "grammarTitle": "Choosing the Right Geo Term",
+      "detailedExplanation": "In Mexico: states, municipalities, regions—not 'counties'. When unsure, use 'area' for neutral, natural phrasing. Tip: Avoid repeating the place name unnecessarily.",
+      "mode": "exact"
+    },
+    {
+      "id": "Sp1",
+      "category": "Proper Nouns & Spelling",
+      "prompt": "Fix the sentence: We visited Isla de Mujeres during our trip.",
+      "accepted": [
+        "We visited Isla Mujeres during our trip."
+      ],
+      "explanation": "The island’s name is 'Isla Mujeres' (no 'de').",
+      "topicNote": "Check official place names and spellings.",
+      "referenceUrl": "https://www.britannica.com/place/Isla-Mujeres",
+      "grammarTitle": "Accuracy with Proper Nouns",
+      "detailedExplanation": "Proper names should be spelled exactly as used officially. Tip: If in doubt, verify with a reliable source before speaking/writing (in speech, keep it simple if unsure).",
+      "mode": "exact"
+    },
+    {
+      "id": "C2",
+      "category": "Phrasal Verbs vs Simple Verbs",
+      "prompt": "Fix the sentence: We ended up our journey in Tapachula.",
+      "accepted": [
+        "We ended our journey in Tapachula.",
+        "We ended up in Tapachula."
+      ],
+      "explanation": "Use 'end + object' or 'end up + place' (no object).",
+      "topicNote": "'End up' doesn’t take a direct object.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/end-up",
+      "grammarTitle": "Using 'End' vs 'End Up'",
+      "detailedExplanation": "'End up' describes a final place/result (We ended up in X). To end something, use the simple verb with an object (end our journey). Tip: If a direct object follows, avoid 'up'.",
+      "mode": "exact"
+    },
+    {
+      "id": "Link2",
       "category": "Fixed Expressions",
-      "prompt": "Fix the sentence: This proposition is far to be true.",
-      "accepted": ["This proposition is far from being true."],
-      "explanation": "The idiomatic phrase is 'far from being true'.",
-      "topicNote": "Memorise common fixed expressions.",
-      "referenceUrl": "https://www.ldoceonline.com/dictionary/far-from-something",
-      "grammarTitle": "Idiomatic Phrases with 'far from'",
-      "detailedExplanation": "Don't insert 'to' here; the pattern is 'far from being + adjective/noun'.",
-      "mode": "exact"
-    },
-    {
-      "id": "ACR1",
-      "category": "Acronyms & Terminology",
-      "prompt": "Fix the acronym: MOC platforms (Coursera, EdX).",
-      "accepted": ["MOOC platforms (Coursera, EdX)."],
-      "explanation": "The correct acronym is MOOC: Massive Open Online Course.",
-      "topicNote": "Use standard academic acronyms.",
-      "referenceUrl": "https://www.merriam-webster.com/dictionary/MOOC",
-      "grammarTitle": "Correct Academic Acronyms",
-      "detailedExplanation": "Incorrect acronyms reduce clarity and credibility.",
-      "mode": "exact"
-    },
-    {
-      "id": "NUM1",
-      "category": "Count Nouns & Quantifiers",
-      "prompt": "Fix the phrase: reduce the amount of accidents",
-      "accepted": ["reduce the number of accidents"],
-      "explanation": "Use 'number of' with countable nouns like 'accidents'.",
-      "topicNote": "Amount (uncountable) vs number (countable).",
-      "referenceUrl": "https://www.lexico.com/grammar/amount-or-number",
-      "grammarTitle": "Amount vs Number",
-      "detailedExplanation": "Choose 'number of' for countable items; 'amount of' for uncountable.",
-      "mode": "exact"
-    },
-    {
-      "id": "AGR3",
-      "category": "Subject–Verb Agreement",
-      "prompt": "Fix the sentence: The advantages of online courses is undeniable.",
-      "accepted": ["The advantages of online courses are undeniable."],
-      "explanation": "Plural subject 'advantages' → 'are'.",
-      "topicNote": "Watch out for prepositional phrases that hide the plural subject.",
-      "referenceUrl": "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html",
-      "grammarTitle": "Agreement with Plural Heads",
-      "detailedExplanation": "Ignore the prepositional phrase ('of online courses'); agree the verb with 'advantages'.",
-      "mode": "exact"
-    },
-    {
-      "id": "AGR4",
-      "category": "Subject–Verb Agreement (Complex Subject)",
-      "prompt": "Choose the correct form: A variety of platforms (offer / offers) free courses.",
-      "accepted": ["A variety of platforms offers free courses."],
-      "explanation": "'A variety' is the head (singular) → 'offers'.",
-      "topicNote": "Identify the true head of the noun phrase.",
-      "referenceUrl": "https://www.grammarly.com/blog/subject-verb-agreement/",
-      "grammarTitle": "Agreement with Collective-Like Noun Phrases",
-      "detailedExplanation": "Although 'platforms' is plural, the head 'a variety' is singular, so use 'offers'.",
-      "mode": "exact"
-    },
-    {
-      "id": "PREP2",
-      "category": "Prepositions & Verb Patterns",
-      "prompt": "Fix the sentence: We have the opportunity of use that time for study.",
+      "prompt": "Fix the sentence: So in overall, it was a fantastic trip.",
       "accepted": [
-        "We have the opportunity to use that time for study.",
-        "We have the opportunity to use that time to study."
+        "Overall, it was a fantastic trip.",
+        "All in all, it was a fantastic trip."
       ],
-      "explanation": "Use 'opportunity to + base verb'.",
-      "topicNote": "Common pattern: opportunity to do something.",
-      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/opportunity",
-      "grammarTitle": "Noun + To-Infinitive Patterns",
-      "detailedExplanation": "Avoid 'of use' here; the natural construction is 'opportunity to use'.",
+      "explanation": "Use 'Overall' (no 'in') or the set phrase 'All in all'.",
+      "topicNote": "Memorise fixed discourse markers.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/overall",
+      "grammarTitle": "Set Phrases for Summarising",
+      "detailedExplanation": "Some linkers are fixed: 'Overall,' 'All in all,' 'On the whole,'. 'In overall' is not idiomatic. Tip: Keep a short list of safe summary openers.",
       "mode": "exact"
     },
     {
-      "id": "SP1",
-      "category": "Spelling & Mechanics",
-      "prompt": "Correct the spelling: particullary",
-      "accepted": ["particularly"],
-      "explanation": "Double 'l' removed; correct adverb is 'particularly'.",
-      "topicNote": "Common IELTS misspelling.",
-      "referenceUrl": "https://www.lexico.com/definition/particularly",
-      "grammarTitle": "Spelling Accuracy",
-      "detailedExplanation": "Keep a personal list of frequent spelling errors and review before writing.",
+      "id": "RC1",
+      "category": "Relative Clauses & Redundancy",
+      "prompt": "Fix the sentence: There was a huge snake that we were able to take pictures of that animal.",
+      "accepted": [
+        "There was a huge snake that we were able to take pictures of.",
+        "We were able to take pictures of a huge snake."
+      ],
+      "explanation": "Avoid repeating 'that animal'; the relative clause already identifies it.",
+      "topicNote": "Use one reference; preposition 'of' can be stranded after 'of'.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/relative-clauses",
+      "grammarTitle": "Concise Relative Clauses",
+      "detailedExplanation": "When a relative clause identifies the noun, don’t restate it with another pronoun/noun. Tip: If a clause ends with 'of that/it', delete the extra noun.",
       "mode": "exact"
     },
     {
-      "id": "SP2",
-      "category": "Spelling & Mechanics",
-      "prompt": "Correct the spelling: inconvinience",
-      "accepted": ["inconvenience"],
-      "explanation": "The correct spelling is 'inconvenience'.",
-      "topicNote": "Vowel sequence 'ien'.",
-      "referenceUrl": "https://www.lexico.com/definition/inconvenience",
-      "grammarTitle": "Spelling Accuracy",
-      "detailedExplanation": "Break into syllables: in-con-ven-ience.",
+      "id": "Lex2",
+      "category": "Vocabulary Range (Avoid Over-repetition)",
+      "prompt": "Improve the sentence: I found that really, really, really encouraging.",
+      "accepted": [
+        "I found that incredibly encouraging.",
+        "I found that genuinely encouraging."
+      ],
+      "explanation": "Replace repeated 'really' with a stronger single intensifier.",
+      "topicNote": "Show lexical range with precise intensifiers.",
+      "referenceUrl": "https://www.merriam-webster.com/thesaurus/really",
+      "grammarTitle": "Using Precise Intensifiers",
+      "detailedExplanation": "Multiple 'really's sound repetitive. Choose a single, precise adverb (incredibly, deeply, strongly). Tip: If you write 'really' twice, replace them with one stronger word.",
       "mode": "exact"
     },
     {
-      "id": "SP3",
-      "category": "Spelling & Mechanics",
-      "prompt": "Correct the spelling and capitalization: Covid / covid",
-      "accepted": ["COVID-19", "COVID"],
-      "explanation": "Use the standard uppercase form.",
-      "topicNote": "Proper nouns and acronyms must be capitalised.",
-      "referenceUrl": "https://apastyle.apa.org/style-grammar-guidelines/abbreviations/covid-19",
-      "grammarTitle": "Acronym Capitalization",
-      "detailedExplanation": "In formal writing, prefer 'COVID-19'; 'COVID' is acceptable in shorter references.",
+      "id": "WC1",
+      "category": "Word Choice (Uncountable Nouns)",
+      "prompt": "Fix the sentence: I discovered all the heritage that Mexico has.",
+      "accepted": [
+        "I discovered Mexico’s cultural heritage.",
+        "I learned about Mexico’s cultural heritage."
+      ],
+      "explanation": "'Heritage' is uncountable; avoid 'all the heritage' unless specifying types.",
+      "topicNote": "Use possessive + uncountable noun for natural phrasing.",
+      "referenceUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/heritage",
+      "grammarTitle": "Uncountable Abstract Nouns",
+      "detailedExplanation": "Abstract nouns like 'heritage' are typically uncountable. Prefer 'X’s heritage' without 'all the'. Tip: If you can’t add a number before it, avoid 'all the'.",
+      "mode": "exact"
+    },
+    {
+      "id": "Sp2",
+      "category": "Proper Nouns & Brand Names",
+      "prompt": "Fix the sentence: I started to use these LLM models such as Gmini and ChatGPT.",
+      "accepted": [
+        "I started using LLMs such as Gemini and ChatGPT."
+      ],
+      "explanation": "Correct the brand name (Gemini) and prefer the natural gerund after 'start'.",
+      "topicNote": "After 'start', both 'to + verb' and '-ing' are possible; '-ing' is common in speech.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/verb-patterns-verb-ing-or-to-infinitive",
+      "grammarTitle": "Verb Patterns & Proper Names",
+      "detailedExplanation": "Use 'start doing' for a natural flow. Avoid 'LLM models' (redundant); 'LLMs' is enough. Tip: When naming tools/brands, double-check spelling.",
+      "mode": "exact"
+    },
+    {
+      "id": "GS1",
+      "category": "Apposition & Subject Duplication",
+      "prompt": "Fix the sentence: A friend of mine, Nacho, he encouraged me to try it.",
+      "accepted": [
+        "A friend of mine, Nacho, encouraged me to try it.",
+        "My friend Nacho encouraged me to try it."
+      ],
+      "explanation": "Don’t repeat the subject pronoun after an appositive.",
+      "topicNote": "Apposition replaces the need for a second subject.",
+      "referenceUrl": "https://www.merriam-webster.com/dictionary/apposition",
+      "grammarTitle": "Apposition Without Double Subjects",
+      "detailedExplanation": "When a noun is followed by another noun in apposition (My friend, Nacho), don’t add an extra 'he/she'. Tip: Delete the pronoun after commas if it repeats the subject.",
+      "mode": "exact"
+    },
+    {
+      "id": "WC2",
+      "category": "Conciseness & Naturalness",
+      "prompt": "Improve the sentence: I actually prefer going with the e-book digital version.",
+      "accepted": [
+        "I prefer the digital (e-book) version.",
+        "I prefer e-books."
+      ],
+      "explanation": "Avoid redundant modifiers; choose one clear noun phrase.",
+      "topicNote": "Keep noun phrases compact and unambiguous.",
+      "referenceUrl": "https://owl.purdue.edu/owl/general_writing/academic_writing/conciseness.html",
+      "grammarTitle": "Concise Noun Phrases",
+      "detailedExplanation": "Stacking near-synonyms ('e-book digital version') is clunky. Choose one precise term. Tip: If two words mean the same, keep the more common one.",
+      "mode": "exact"
+    },
+    {
+      "id": "Pron1",
+      "category": "Pronoun Reference",
+      "prompt": "Fix the sentence: My uncle was waiting for me. She had been living there for almost ten years.",
+      "accepted": [
+        "My uncle was waiting for me. He had been living there for almost ten years."
+      ],
+      "explanation": "Match pronoun gender/number with the antecedent.",
+      "topicNote": "Ensure clear and accurate pronoun reference.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/pronouns-personal-i-me-you-he-him-etc",
+      "grammarTitle": "Agreement in Pronoun Reference",
+      "detailedExplanation": "Pronouns must agree with the noun they replace. A mismatch confuses the listener. Tip: After writing, quickly check each pronoun back to its noun.",
+      "mode": "exact"
+    },
+    {
+      "id": "Word2",
+      "category": "Lexical Choice (Speech vs Tools)",
+      "prompt": "Fix the sentence: Could you unmute that once again, please? (asking for a question to be repeated)",
+      "accepted": [
+        "Could you repeat that, please?",
+        "Could you say that again, please?"
+      ],
+      "explanation": "'Unmute' refers to audio controls, not repetition.",
+      "topicNote": "Choose verbs that match the communicative function.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/repeat",
+      "grammarTitle": "Choosing Accurate Verbs for Requests",
+      "detailedExplanation": "Use 'repeat'/'say that again' when you didn’t catch something. Reserve 'unmute' for toggling a microphone. Tip: If you want to hear the same words again, say 'repeat'.",
+      "mode": "exact"
+    },
+    {
+      "id": "Style1",
+      "category": "Cohesion & Clarity",
+      "prompt": "Improve the sentence: We got a quick idea of Cancun.",
+      "accepted": [
+        "We got a quick feel for Cancun.",
+        "We got a quick impression of Cancun."
+      ],
+      "explanation": "'Idea of a city' is vague; 'feel/impression' is the natural collocation.",
+      "topicNote": "Prefer common collocations to sound natural.",
+      "referenceUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/impression",
+      "grammarTitle": "Natural Collocations for Impressions",
+      "detailedExplanation": "English favours 'get a feel/impression' when describing first contact with a place. Tip: Keep a small bank of high-frequency collocations.",
       "mode": "exact"
     }
   ]
