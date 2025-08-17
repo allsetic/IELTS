@@ -4,7 +4,8 @@
 This repository contains a single-page web application built with React and Tailwind CSS for practicing English grammar and vocabulary.
 
 ### Top-level files
-- **`index.html`**: The entire application lives in this file. It includes Tailwind, React, ReactDOM, and Babel via CDN links. All JavaScript, JSX, and styling are embedded directly in the file.
+- **`index.html`**: React app shell; fetches questions from `questions.json` and renders the interface.
+- **`questions.json`**: External question bank with grammar metadata and reference links.
 - **`README.md`**: You are reading it.
 
 ## Main components and flow
@@ -12,8 +13,8 @@ This repository contains a single-page web application built with React and Tail
    - `normalize`: lowercases, removes punctuation, and standardizes quotes.
    - `levenshtein`: computes edit distance between the student's response and the model answer.
    - `shuffle`: randomizes question order.
-2. **Question bank (`BANK`)**
-   - An array of objects containing `id`, `category`, `prompt`, acceptable answers, and explanations.
+2. **External question bank (`questions.json`)**
+   - Provides `id`, `category`, `prompt`, accepted answers, explanations, grammar titles, topic notes, detailed guidance, and reference URLs.
 3. **`EnglishDrillApp` React component**
    - Uses React hooks for state management.
    - Functions like `checkAnswer`, `skip`, `next`, and `reshuffle` control question flow.
@@ -34,4 +35,13 @@ This repository contains a single-page web application built with React and Tail
 
 ## Summary
 This project is a small, standalone React application delivered entirely through a single HTML file. It demonstrates how to build an interactive language-drill tool using only CDN-supplied libraries and browser-side Babel. To grow or contribute, focus on mastering React hooks, Tailwind’s styling conventions, and basic algorithmic text processing. From there, the natural next step is learning how to modularize the code and introduce a build process for larger-scale development.
+
+## Development
+
+Run a local server to avoid browser `fetch` restrictions:
+
+- `python -m http.server 8080`
+- or `npx serve`
+
+Open `http://localhost:8080/` and edit `questions.json` to update content—no rebuild required.
 
