@@ -1180,6 +1180,348 @@
       "grammarTitle": "Event Vocabulary",
       "detailedExplanation": "Common in arts/culture IELTS topics.",
       "mode": "exact"
+    },
+    {
+      "id": "SP4",
+      "category": "Spelling",
+      "prompt": "Correct the spelling: disccuss",
+      "accepted": [
+        "discuss"
+      ],
+      "explanation": "Only one double consonant: 'ss' at the end.",
+      "topicNote": "Watch double consonants in Latin-based verbs.",
+      "referenceUrl": "https://www.lexico.com/definition/discuss",
+      "grammarTitle": "Spelling: Discuss",
+      "detailedExplanation": "The correct sequence is di‑scuss, not disc‑cuss.",
+      "mode": "exact"
+    },
+    {
+      "id": "SP5",
+      "category": "Spelling",
+      "prompt": "Correct the spelling: hability",
+      "accepted": [
+        "ability"
+      ],
+      "explanation": "Drop the initial 'h'.",
+      "topicNote": "Latin root 'habilis' vs English 'ability'.",
+      "referenceUrl": "https://www.merriam-webster.com/dictionary/ability",
+      "grammarTitle": "Spelling: Ability",
+      "detailedExplanation": "Pronounce a-BIL-i-ty; no initial 'h' in English.",
+      "mode": "exact"
+    },
+    {
+      "id": "SP6",
+      "category": "Spelling",
+      "prompt": "Correct the spelling: porpuse",
+      "accepted": [
+        "purpose"
+      ],
+      "explanation": "Vowel order is 'ur…ose'.",
+      "topicNote": "Unstressed vowels often cause errors.",
+      "referenceUrl": "https://www.lexico.com/definition/purpose",
+      "grammarTitle": "Spelling: Purpose",
+      "detailedExplanation": "Remember 'pur‑' like 'purr' + 'pose'.",
+      "mode": "exact"
+    },
+    {
+      "id": "SP7",
+      "category": "Spelling",
+      "prompt": "Correct the spelling: lifes",
+      "accepted": [
+        "lives"
+      ],
+      "explanation": "Irregular plural of 'life' is 'lives'.",
+      "topicNote": "Nouns ending in -fe often change to -ves.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/nouns-forming-the-plural",
+      "grammarTitle": "Irregular Plurals: life → lives",
+      "detailedExplanation": "Knife→knives, wife→wives, life→lives.",
+      "mode": "exact"
+    },
+    {
+      "id": "SP8",
+      "category": "Spelling",
+      "prompt": "Correct the spelling: Aditionally",
+      "accepted": [
+        "Additionally"
+      ],
+      "explanation": "Double 'd'.",
+      "topicNote": "Prefix 'ad-' doubles the consonant.",
+      "referenceUrl": "https://www.lexico.com/definition/additionally",
+      "grammarTitle": "Spelling: Additionally",
+      "detailedExplanation": "Think 'add' + 'itionally'.",
+      "mode": "exact"
+    },
+    {
+      "id": "SP9",
+      "category": "Spelling",
+      "prompt": "Correct the spelling: Academyc",
+      "accepted": [
+        "Academic"
+      ],
+      "explanation": "Ends with -mic, not -myc.",
+      "topicNote": "Adjective from 'academy' is 'academic'.",
+      "referenceUrl": "https://www.lexico.com/definition/academic",
+      "grammarTitle": "Spelling: Academic",
+      "detailedExplanation": "Noun 'academy' → adjective 'academic' (vowel change).",
+      "mode": "exact"
+    },
+    {
+      "id": "SP10",
+      "category": "Spelling",
+      "prompt": "Correct the spelling: degres",
+      "accepted": [
+        "degrees"
+      ],
+      "explanation": "Plural adds 'ee' + 's'.",
+      "topicNote": "Noun ends with -ee before plural -s.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/degree",
+      "grammarTitle": "Spelling: Degrees",
+      "detailedExplanation": "Pronounce de-GREES; hear the long 'ee'.",
+      "mode": "exact"
+    },
+    {
+      "id": "SP11",
+      "category": "Spelling",
+      "prompt": "Correct the spelling: estudents",
+      "accepted": [
+        "students"
+      ],
+      "explanation": "No initial 'e-'.",
+      "topicNote": "False transfer from Spanish/Portuguese.",
+      "referenceUrl": "https://www.lexico.com/definition/student",
+      "grammarTitle": "Spelling: Students",
+      "detailedExplanation": "English does not add 'e' before 'st' clusters.",
+      "mode": "exact"
+    },
+    {
+      "id": "SP12",
+      "category": "Spelling",
+      "prompt": "Correct the spelling: profesional",
+      "accepted": [
+        "professional"
+      ],
+      "explanation": "Double 's'.",
+      "topicNote": "Profession → professional keeps double 's'.",
+      "referenceUrl": "https://www.lexico.com/definition/professional",
+      "grammarTitle": "Spelling: Professional",
+      "detailedExplanation": "Pro‑fes‑sion‑al → keep both 's'.",
+      "mode": "exact"
+    },
+    {
+      "id": "SP13",
+      "category": "Spelling",
+      "prompt": "Correct the spelling: unhelpfull",
+      "accepted": [
+        "unhelpful"
+      ],
+      "explanation": "Only one 'l' at the end.",
+      "topicNote": "Suffix -ful is single 'l'.",
+      "referenceUrl": "https://www.lexico.com/definition/unhelpful",
+      "grammarTitle": "Spelling: -ful Suffix",
+      "detailedExplanation": "Helpful, useful, careful: one 'l' in -ful.",
+      "mode": "exact"
+    },
+    {
+      "id": "SP14",
+      "category": "Spelling",
+      "prompt": "Correct the spelling: then (meaning 'them')",
+      "accepted": [
+        "them"
+      ],
+      "explanation": "Pronoun 'them' (object) not adverb 'then' (time).",
+      "topicNote": "Homophones and near-homophones confusions.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/pronouns/personal-pronouns-me-you-him-them-etc",
+      "grammarTitle": "Pronoun vs Adverb: them/then",
+      "detailedExplanation": "Use 'them' to refer to people/objects; 'then' refers to time/sequence.",
+      "mode": "exact"
+    },
+    {
+      "id": "SP15",
+      "category": "Spelling",
+      "prompt": "Correct the spelling: confort",
+      "accepted": [
+        "comfort"
+      ],
+      "explanation": "Vowel order is 'om', not 'on'.",
+      "topicNote": "Check vowel order in unstressed syllables.",
+      "referenceUrl": "https://www.lexico.com/definition/comfort",
+      "grammarTitle": "Spelling: Comfort",
+      "detailedExplanation": "Pronounce 'kum‑fət'—schwa hides vowels; memorise spelling.",
+      "mode": "exact"
+    },
+    {
+      "id": "SP16",
+      "category": "Spelling",
+      "prompt": "Correct the spelling: sourranded",
+      "accepted": [
+        "surrounded"
+      ],
+      "explanation": "Double 'r' not needed; double 'r' occurs in 'surround' already.",
+      "topicNote": "Derivation: surround → surrounded (add -ed).",
+      "referenceUrl": "https://www.lexico.com/definition/surround",
+      "grammarTitle": "Spelling: Surrounded",
+      "detailedExplanation": "Base verb 'surround' + -ed → 'surrounded'.",
+      "mode": "exact"
+    },
+    {
+      "id": "SVA1",
+      "category": "Subject–Verb Agreement",
+      "prompt": "Fix the sentence: Many people is gifted for certain professional activities.",
+      "accepted": [
+        "Many people are gifted for certain professional activities.",
+        "Many people are gifted in certain professional activities."
+      ],
+      "explanation": "'People' is plural → use 'are'.",
+      "topicNote": "Match plural subjects with plural verb forms.",
+      "referenceUrl": "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html",
+      "grammarTitle": "Agreement with Plural Nouns",
+      "detailedExplanation": "Identify the head noun: 'people' (plural) → 'are', 'enjoy', 'have'.",
+      "mode": "exact"
+    },
+    {
+      "id": "SVA2",
+      "category": "Subject–Verb Agreement",
+      "prompt": "Fix the sentence: For most of the people is quite common to finish a degree without a clear plan.",
+      "accepted": [
+        "For most people, it is quite common to finish a degree without a clear plan."
+      ],
+      "explanation": "Use introductory 'it' as the subject: 'it is quite common…'.",
+      "topicNote": "Extraposition with dummy 'it'.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/extraposition",
+      "grammarTitle": "Dummy 'It' for Clause Subjects",
+      "detailedExplanation": "Natural English prefers 'It is + adjective + to V/that-clause' rather than a clause as subject.",
+      "mode": "exact"
+    },
+    {
+      "id": "ART1",
+      "category": "Articles",
+      "prompt": "Fix the sentence: The current education system is more focus on creating employees.",
+      "accepted": [
+        "The current education system is more focused on creating employees."
+      ],
+      "explanation": "Past participle needed: 'focused', not base 'focus'.",
+      "topicNote": "Be + past participle for adjectival passives.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/passive",
+      "grammarTitle": "Adjectival Passive: be + -ed",
+      "detailedExplanation": "When describing state/result, use 'is focused on' (not 'is focus on').",
+      "mode": "exact"
+    },
+    {
+      "id": "ART2",
+      "category": "Articles",
+      "prompt": "Fix the sentence: It is not the students fault.",
+      "accepted": [
+        "It is not the students' fault.",
+        "It is not the student's fault."
+      ],
+      "explanation": "Use possessive apostrophe: student's (singular) / students' (plural).",
+      "topicNote": "Possessive forms with apostrophes.",
+      "referenceUrl": "https://www.grammarly.com/blog/apostrophe/",
+      "grammarTitle": "Apostrophes for Possession",
+      "detailedExplanation": "If many students: add apostrophe after s (students'). If one: student’s.",
+      "mode": "exact"
+    },
+    {
+      "id": "CU2",
+      "category": "Count/Uncount & Plurals",
+      "prompt": "Choose the correct option: The (consequence / consequences) of this trend are serious.",
+      "accepted": [
+        "The consequences of this trend are serious."
+      ],
+      "explanation": "General reference → plural 'consequences'.",
+      "topicNote": "Use plural for general categories when multiple effects exist.",
+      "referenceUrl": "https://www.ldoceonline.com/dictionary/consequence",
+      "grammarTitle": "Generic Plurals for Categories",
+      "detailedExplanation": "When you mean several possible effects, choose the plural.",
+      "mode": "exact"
+    },
+    {
+      "id": "WF2",
+      "category": "Verb Forms",
+      "prompt": "Fix the sentence: More focus in creating employees.",
+      "accepted": [
+        "More focus on creating employees.",
+        "There is more focus on creating employees."
+      ],
+      "explanation": "Use 'focus on', not 'focus in'.",
+      "topicNote": "Collocation: focus on + noun/gerund.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/focus-on",
+      "grammarTitle": "Collocation: focus on",
+      "detailedExplanation": "When 'focus' is a noun or verb, pair it with 'on' before the object.",
+      "mode": "exact"
+    },
+    {
+      "id": "WF3",
+      "category": "Agreement & Pronouns",
+      "prompt": "Fix the sentence: To find your passion, people must explore their interests.",
+      "accepted": [
+        "To find their passion, people must explore their interests.",
+        "People must explore their interests to find their passion."
+      ],
+      "explanation": "Maintain pronoun consistency: 'people' → 'their', not 'your'.",
+      "topicNote": "Avoid shifting between second and third person.",
+      "referenceUrl": "https://owl.purdue.edu/owl/general_writing/academic_writing/establishing_arguments/avoiding_plagiarism_pronouns.html",
+      "grammarTitle": "Pronoun Consistency",
+      "detailedExplanation": "Keep person consistent within a clause/paragraph for clarity and tone.",
+      "mode": "exact"
+    },
+    {
+      "id": "COH2",
+      "category": "Coherence & Cohesion",
+      "prompt": "Combine into one clear sentence: This makes that most graduate students start their careers without knowing what they want.",
+      "accepted": [
+        "As a result, most graduates start their careers without knowing what they want.",
+        "Consequently, most graduates begin their careers without a clear direction."
+      ],
+      "explanation": "Replace 'makes that' with a standard result connector.",
+      "topicNote": "Cause → result structures: As a result / Consequently + clause.",
+      "referenceUrl": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/linking-words-contrast-addition-and-cause-and-effect",
+      "grammarTitle": "Cause–Effect Linking",
+      "detailedExplanation": "English uses fixed phrases for cause → effect; avoid literal translations like 'makes that'.",
+      "mode": "exact"
+    },
+    {
+      "id": "COH3",
+      "category": "Coherence & Cohesion",
+      "prompt": "Strengthen the conclusion: We should encourage and support dreams and passion of young students.",
+      "accepted": [
+        "Schools should provide sustained career counselling and create pathways that align students’ talents with realistic career options."
+      ],
+      "explanation": "Conclusions should be specific and policy‑oriented in Task 2.",
+      "topicNote": "End with actionable, precise recommendations.",
+      "referenceUrl": "https://ielts.org/for-test-takers/how-ielts-is-scored",
+      "grammarTitle": "Effective Conclusions in Task 2",
+      "detailedExplanation": "Replace vague exhortations with concrete proposals that restate your thesis and answer the question.",
+      "mode": "exact"
+    },
+    {
+      "id": "SVA3",
+      "category": "Subject–Verb Agreement",
+      "prompt": "Fix the sentence: A second example are senior professionals who never leave their nine-to-five job.",
+      "accepted": [
+        "A second example is senior professionals who never leave their nine-to-five job.",
+        "Another example is senior professionals who never leave their nine-to-five job."
+      ],
+      "explanation": "The subject is 'example' (singular) → 'is'.",
+      "topicNote": "Agree the verb with the grammatical subject, not the nearest noun.",
+      "referenceUrl": "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html",
+      "grammarTitle": "Proximity vs True Subject",
+      "detailedExplanation": "Ignore the plural noun in the relative clause; match the verb to 'example'.",
+      "mode": "exact"
+    },
+    {
+      "id": "PRON1",
+      "category": "Pronouns & Consistency",
+      "prompt": "Fix the sentence: It becomes impossible for an individual to find his passion, neither the things he is good at or the topics that he enjoys.",
+      "accepted": [
+        "It becomes impossible for an individual to find their passion, or to identify the things they are good at and the topics they enjoy."
+      ],
+      "explanation": "Use singular 'they' for gender-neutral reference; fix correlative structure.",
+      "topicNote": "Modern academic English accepts singular 'they'. Use 'neither…nor' or just 'or' for alternatives.",
+      "referenceUrl": "https://www.merriam-webster.com/words-at-play/singular-nonbinary-they",
+      "grammarTitle": "Gender-Neutral Singular 'They'",
+      "detailedExplanation": "Prefer 'their/they' for an unspecified person. Use 'neither…nor' or just 'or' for alternatives.",
+      "mode": "exact"
     }
   ]
 }

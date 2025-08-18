@@ -983,6 +983,203 @@
       "grammarTitle": "Natural Collocations for Impressions",
       "detailedExplanation": "English favours 'get a feel/impression' when describing first contact with a place. Tip: Keep a small bank of high-frequency collocations.",
       "mode": "exact"
+    },
+    {
+      "id": "TR1",
+      "category": "Translation ES→EN (Single Word)",
+      "prompt": "Traduce al inglés: atención (doble ‘t’).",
+      "accepted": [
+        "attention"
+      ],
+      "explanation": "Spelling with double ‘t’.",
+      "topicNote": "One-word drill in translation mode.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/attention",
+      "grammarTitle": "Spelling in Translation",
+      "detailedExplanation": "Focus on accurate letters while translating.",
+      "mode": "exact"
+    },
+    {
+      "id": "TR2",
+      "category": "Translation ES→EN (Single Word)",
+      "prompt": "Traduce al inglés: tarea académica/asignación.",
+      "accepted": [
+        "assignment"
+      ],
+      "explanation": "Use the academic noun ‘assignment’.",
+      "topicNote": "One-word drill.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/assignment",
+      "grammarTitle": "Academic Lexis",
+      "detailedExplanation": "Avoid false friends like ‘designation’.",
+      "mode": "exact"
+    },
+    {
+      "id": "TR3",
+      "category": "Translation ES→EN (Single Word)",
+      "prompt": "Traduce al inglés: turismo.",
+      "accepted": [
+        "tourism"
+      ],
+      "explanation": "Note ‘-ism’ ending.",
+      "topicNote": "One-word drill.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/tourism",
+      "grammarTitle": "Industry Nouns",
+      "detailedExplanation": "Keep standard suffixes when translating.",
+      "mode": "exact"
+    },
+    {
+      "id": "TR4",
+      "category": "Translation ES→EN (Single Word)",
+      "prompt": "Traduce al inglés: económico (barato) / económico (relativo a la economía).",
+      "accepted": [
+        "economical",
+        "economic"
+      ],
+      "explanation": "‘Economical’ = barato/eficiente; ‘economic’ = de la economía.",
+      "topicNote": "One-word drill with meaning choice.",
+      "referenceUrl": "https://dictionary.cambridge.org/grammar/british-grammar/economic-or-economical",
+      "grammarTitle": "Semantic Disambiguation",
+      "detailedExplanation": "Choose according to the Spanish sense intended.",
+      "mode": "exact"
+    },
+    {
+      "id": "TR5",
+      "category": "Translation ES→EN (Single Word)",
+      "prompt": "Traduce al inglés: inmenso.",
+      "accepted": [
+        "immense"
+      ],
+      "explanation": "Double ‘m’.",
+      "topicNote": "One-word drill.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/immense",
+      "grammarTitle": "Consonant Doubling",
+      "detailedExplanation": "Maintain accurate consonant counts when translating.",
+      "mode": "exact"
+    },
+    {
+      "id": "TR6",
+      "category": "Translation ES→EN (Single Word)",
+      "prompt": "Traduce al inglés: permiso.",
+      "accepted": [
+        "permission"
+      ],
+      "explanation": "Noun from ‘permit’ ends with ‘-ssion’.",
+      "topicNote": "One-word drill.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/permission",
+      "grammarTitle": "Suffix Choice",
+      "detailedExplanation": "Map Spanish -so/-sión to English -ssion where appropriate.",
+      "mode": "exact"
+    },
+    {
+      "id": "TR7",
+      "category": "Translation ES→EN (Single Word)",
+      "prompt": "Traduce al inglés: razones.",
+      "accepted": [
+        "reasons"
+      ],
+      "explanation": "Plural noun.",
+      "topicNote": "One-word drill.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/reason",
+      "grammarTitle": "Pluralisation",
+      "detailedExplanation": "Add ‘-s’ for plural countable nouns in English.",
+      "mode": "exact"
+    },
+    {
+      "id": "TR8",
+      "category": "Translation ES→EN (Single Word)",
+      "prompt": "Traduce al inglés: consecuencias.",
+      "accepted": [
+        "consequences"
+      ],
+      "explanation": "Maintain ‘-que-’ spelling.",
+      "topicNote": "One-word drill.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/consequence",
+      "grammarTitle": "qu/que Mapping",
+      "detailedExplanation": "Spanish ‘cue’ often maps to English ‘que’.",
+      "mode": "exact"
+    },
+    {
+      "id": "TR9",
+      "category": "Translation ES→EN (Single Word)",
+      "prompt": "Traduce al inglés: acciones.",
+      "accepted": [
+        "actions"
+      ],
+      "explanation": "No extra ‘c’.",
+      "topicNote": "One-word drill.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/action",
+      "grammarTitle": "Avoid Over-Doubling",
+      "detailedExplanation": "Keep single ‘c’ in ‘action’.",
+      "mode": "exact"
+    },
+    {
+      "id": "TR10",
+      "category": "Translation ES→EN (Single Word)",
+      "prompt": "Traduce al inglés: alojamiento (viajes).",
+      "accepted": [
+        "accommodation"
+      ],
+      "explanation": "Double ‘c’ and ‘m’.",
+      "topicNote": "One-word drill.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/accommodation",
+      "grammarTitle": "Travel Lexis",
+      "detailedExplanation": "Very frequent in IELTS Speaking/Writing Task 1.",
+      "mode": "exact"
+    },
+    {
+      "id": "TR11",
+      "category": "Translation ES→EN (Single Word)",
+      "prompt": "Traduce al inglés: internacional.",
+      "accepted": [
+        "international"
+      ],
+      "explanation": "Watch double ‘n’ and ‘t’.",
+      "topicNote": "One-word drill.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/international",
+      "grammarTitle": "Loanword Spelling",
+      "detailedExplanation": "Cognate but spelling differs slightly.",
+      "mode": "exact"
+    },
+    {
+      "id": "TR12",
+      "category": "Translation ES→EN (Single Word)",
+      "prompt": "Traduce al inglés: turismo excesivamente caro (como adjetivo compuesto).",
+      "accepted": [
+        "overpriced"
+      ],
+      "explanation": "Use the closed compound ‘overpriced’.",
+      "topicNote": "One-word drill.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/overpriced",
+      "grammarTitle": "Compound Adjectives",
+      "detailedExplanation": "Common marketing/travel descriptor in IELTS topics.",
+      "mode": "exact"
+    },
+    {
+      "id": "TR13",
+      "category": "Translation ES→EN (Single Word)",
+      "prompt": "Traduce al inglés: investigación (actividad, incontable).",
+      "accepted": [
+        "research"
+      ],
+      "explanation": "Uncountable noun; avoid ‘researches’ for the activity.",
+      "topicNote": "One-word drill.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/research",
+      "grammarTitle": "Countability in Academic Nouns",
+      "detailedExplanation": "Use ‘research’ (uncountable) vs ‘researcher(s)’ (people).",
+      "mode": "exact"
+    },
+    {
+      "id": "TR14",
+      "category": "Translation ES→EN (Single Word)",
+      "prompt": "Traduce al inglés: exposición (evento público).",
+      "accepted": [
+        "exhibition"
+      ],
+      "explanation": "Spelling with ‘xh’.",
+      "topicNote": "One-word drill.",
+      "referenceUrl": "https://dictionary.cambridge.org/dictionary/english/exhibition",
+      "grammarTitle": "Event Vocabulary",
+      "detailedExplanation": "Common in arts/culture IELTS topics.",
+      "mode": "exact"
     }
   ]
 }

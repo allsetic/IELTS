@@ -1,4 +1,13 @@
-Existing questions: 68
-New questions provided: 14
-Appended: 14
-Skipped: 0
+Existing questions: 82
+New questions provided: 33
+Appended: 24
+Skipped: 9
+- SP1: duplicate id
+- SP2: duplicate id
+- SP3: duplicate id
+- CU1: duplicate id
+- WF1: duplicate id
+- COH1: duplicate id
+- LEX1: duplicate id
+- LEX2: duplicate id
+- LEX3: duplicate id
